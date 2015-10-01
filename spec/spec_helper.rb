@@ -16,6 +16,7 @@ Mongoid.configure do |config|
   config.connect_to "mongoid-paperclip"
 end
 Paperclip.options[:log] = false
+Mongo::Logger.logger.level = ::Logger::FATAL
 
 #Mongoid.logger = Logger.new($stdout)
 #Moped.logger = Logger.new($stdout)
