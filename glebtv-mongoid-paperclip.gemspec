@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   # pinned because of https://github.com/thoughtbot/paperclip/issues/1845
-  gem.add_dependency 'paperclip', '~> 4.3.1'
+  gem.add_dependency 'paperclip', '~> 5.1.0'
   gem.add_dependency "mongoid", [">= 3.0", "< 6.1"]
   gem.add_development_dependency "bundler"
   gem.add_development_dependency "rspec"
